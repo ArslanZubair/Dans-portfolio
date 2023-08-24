@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal POrtfolio</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/b7398c5107.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="mylogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <br><span>Danish Zubair</span> </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="IMG_3892.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>A passionate graphic designer, eager to use different tools to
+                        show my creativity in the form of graphics. I love converting
+                        Ideas into reality that inspire, inform and captivate consumers.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <!-- -----------skills------ -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Graphic Designing</li>
+                                <li><span>Adobe</span><br>AI, Ps, XD , Pp</li>
+                                <li><span>Hands On</span><br>CTP , Offset Printing , Raptor MCS Pro</li>
+                                <li><span>Microsoft</span><br>Pp , Word , Excel </li>
+                                <li><span>Other</span><br>Unity , Corel Draw , VA </li>
+                            </ul>
+                        </div>
+
+                        <!-- ------------experience------------ -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span> 05/2020 - 10/2020 </span><br>Freelance</li>
+                                <li><span> 10/2020 - 07/2021</span><br>Roid Rage Games</li>
+                                <li><span> 08/2021 - 01/2022</span><br>JBD Press</li>
+                                <li><span>01/2022 - 08/2022</span><br>Amazon Printing Press</li>
+                               
+                            </ul>
+                        </div>
+
+                        <!-- ------------education  ---------  -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Diploma in Graphic Design</span><br>Steps Institute of Art Design and Management</li>
+                                <li><span>ICS</span><br>Islamia College</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------services------------------------ -->
+    
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Graphic Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, rerum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, rerum.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------portfolio---------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work5.jpg" >
+                    <div class="layer">
+                        <h3>Burger Lab Bill Board</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://www.behance.net/gallery/118260685/Burger-Lab-Poser/modules/673650949"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work4.jpg" >
+                    <div class="layer">
+                        <h3>Calender Design</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://www.behance.net/gallery/118289749/Calendar-Design/modules/673806463"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work6.png" alt="">
+                    <div class="layer">
+                        <h3>Hot Grill Application</h3>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                        <a href="https://www.behance.net/gallery/136401965/Hot-Grill-application/modules/771621213"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://www.behance.net/danishzubair" class="btn">See more on behance</a>
+        </div>
+    </div>
+
+    <!-- --------contact--------- -->
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>danishzubair1999@gmail.com</p>
+                    <div class="phone-num">
+                        <i class="fa-solid fa-phone"></i> 
+                        <div>
+                            <span>PK: +92 303 4471 447 </span> <br>
+                            <span>UAE: +971 563 411 691</span> 
+                        </div>
+                    </div>
+                    <div class="social-media-icons">
+                        <a href="https://instagram.com/designwithdangraphics?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/danishzubair"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.behance.net/danishzubair"><i class="fa-brands fa-square-behance"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Name" required >
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Arslan. Made with <i class="fa-solid fa-heart"></i> by Arslan Zubair</p>
+        </div>
+    </div>
+
+
+    <!-- -----------js---------- -->
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        
+        
+        function opentab(tabname) 
+        {
+
+            for(tablink of tablinks)
+            {
+                tablink.classList.remove("active-link");
+                
+            }
+        
+        
+            for(tabcontent of tabcontents)
+            {
+                tabcontent.classList.remove("active-tab");
+            
+
+            }
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    
+</body>
+</html>
